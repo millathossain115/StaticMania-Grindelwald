@@ -1,5 +1,20 @@
-#body{
+@font-face {
+  font-family: boska;
+  src: url(../Boska-Variable.ttf);
+}
+@font-face {
+  font-family: boskaItalic;
+  src: url(../Boska-VariableItalic.ttf);
+}
+
+@font-face {
+  font-family: switzer;
+  src: url(../font/Switzer-Variable.ttf);
+}
+
+#body {
   background-color: #1b3936;
+
 }
 
 #header {
@@ -15,8 +30,8 @@
   flex-direction: row;
   justify-content: space-between;
   justify-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 120px;
+  padding-right: 100px;
   /* padding-top: 26.5px; */
 }
 
@@ -33,6 +48,8 @@
 }
 
 .Nav-links {
+  font-family: switzer;
+  font-weight: normal;
   margin-top: 25px;
   text-decoration: none;
   color: #ffffff;
@@ -68,8 +85,12 @@
   /* padding: ; */
 }
 #Nav-title {
+   font-family: "Oranienbaum", serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #75FF69;
   font-size: 28px;
-  color: white;
+  /* color: white; */
 }
 
 /* =====Navbar CSS ends===== */
@@ -103,16 +124,72 @@
   /* bottom: 5px; */
   top: -420px;
   right: -550px;
+}
+
+#title {
   
-}
-#in-the{
-  font-size: 30px;
-}
-
-
-#title{
-  color: white;
-  font-size: 200px;
+  /* font-style: italic; */
+  /* color: white; */
+  font-size: 220px;
   text-align: center;
   position: relative;
+  top: -1050px;
+}
+#cosy{
+  font-family: boska;
+  font-weight: normal;
+  /* border: 1px solid red; */
+  color: white;
+  position: relative;
+  left: -55px;
+
+}
+#cabin{
+  /* border: 1px solid red; */
+  font-family: boskaItalic;
+  font-weight: normal;
+  /* font-style: italic; */
+  color: #75FF69;
+  position: relative;
+  right: -150px;
+  top: -90px;
+  
+}
+#Woods {
+  font-family: boska;
+  font-weight: normal;
+  color: white;
+  position: relative;
+  top: -450px;
+}
+
+#in-the {
+  font-family: boska;
+  font-weight: normal;
+  font-size: 30px;
+  position: relative;
+  top: -315px;
+  color: white;
+}
+
+
+#jackBuild{
+  /* border: 1px solid red; */
+  font-family: switzer;
+  font-weight: normal;
+  position: relative;
+  top: -1700px;
+}
+
+
+/* =====Main starts===== */
+
+
+#info-section{
+  background-color: white;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  top: -1570px;
 }
