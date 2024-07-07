@@ -351,3 +351,92 @@
 .about-us-text-gray{
   color: #678784;
 }
+
+
+
+#cabin-field{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+
+#cabin-field:nth-child(1){
+  padding-left: 50px;
+  /* border: 2px solid red; */
+}
+
+
+.majestic-mountains-field{
+/* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.majestic-mountains-field>h1{
+  font-family: boska;
+  font-weight: normal;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: -140px;
+
+
+}
+
+.majestic-mountains{
+  height: 500px;
+  width: 375px;
+}
+
+#cosy-cabin{
+  height: 770px;
+  width: 580px;
+  padding: 30px;
+}
+
+#cabins-images-section{
+    background-color: white;
+    position: relative;
+    top: -1960px;
+}
+
+#cabins-images-section>h1{
+  font-family: boska;
+  font-weight: normal;
+  color: #1B3936;
+  font-size: 65px;
+  margin-left: 150px;
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+#cosy-cabin-div>div>h1{
+  font-family: boska;
+  font-weight: normal;
+  font-size: 65px;
+  margin: 0%;
+  padding: 0%;
+  color: white;
+
+}
+
+#cosy-cabin-div>div>p{
+  font-size: 18px;
+  font-family: switzer;
+  font-weight: normal;
+  margin: 0%;
+  padding: 0%;
+  color: white;
+}
+
+#cosy-cabin-div>div{
+  position: relative;
+  top: -250px;
+  right: -80px;
+}
